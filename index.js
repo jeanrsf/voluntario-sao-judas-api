@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require ('express')
 const { cadastroVoluntario } = require('./src/controladores/cadastro')
 const app = express()
